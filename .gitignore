@@ -1,2 +1,8 @@
 # Godot 4+ specific ignores
 .godot/
+
+# macOS
+.DS_Store
+
+# Web/desktop builds (published on itch.io, not in git)
+export/

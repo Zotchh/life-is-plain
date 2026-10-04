@@ -8,7 +8,7 @@ signal countdown_ended()
 @onready var timer: Timer = $CountdownBar/CountdownTimer
 
 const COUNTDOWN_MAX: int = Global.COUNTDOWN_MAX
-const COUNTDOWN_STEP: int = Global.COUNTDOWN_UPDATE_STEP
+const COUNTDOWN_STEP: float = Global.COUNTDOWN_UPDATE_STEP
 
 func _ready():
 	pb.max_value = COUNTDOWN_MAX

@@ -13,7 +13,7 @@ var possible_moves: Array[String] = ["up", "down", "right", "left"]
 const RESOURCE_MAX: float = 1000
 const RESOURCE_MIN: float = -30
 const RESOURCE_START: float = 733
-const RESOURCE_UPDATE_STEP: float = 2
+const RESOURCE_UPDATE_STEP: float = 1.3
 const SCORE_INCREASE_MIN: float = 38
 const SCORE_STEEP: float = 50
 const SCORE_HEIGHT: float = 1.5
@@ -38,8 +38,8 @@ const MUSIC_BUS: String = "Music"
 const SFX_BUS: String = "SFX"
 
 # global
-const COUNTDOWN_MAX: int = 100
-const COUNTDOWN_UPDATE_STEP: int = 2
+const COUNTDOWN_MAX: int = 150
+const COUNTDOWN_UPDATE_STEP: float = 1.2
 
 var difficulty: Global.difficulty_level = difficulty_level.EASY
 
